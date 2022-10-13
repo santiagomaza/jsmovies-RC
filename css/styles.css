@@ -1,0 +1,17 @@
+.portada-image{
+  height: 70vh;
+  background-image: url('https://images3.alphacoders.com/124/thumb-1920-1241167.png');
+  background-size: cover;
+  background-size: 100% 450px;
+  color: #fff;
+  padding: 1em;
+}
+
+.cotainer-descripcion{
+  width: 50%;
+}
+
+span{
+  font-weight: bold;
+  text-decoration: underline;
+}
