@@ -1,0 +1,17 @@
+.d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  padding: 10px;
+  background-color: #4e183c;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:azure;
+}
+
+.card:hover {
+  top: -5px;
+  box-shadow: 0 4px 4px;
+}
+
