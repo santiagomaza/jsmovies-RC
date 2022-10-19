@@ -63,5 +63,11 @@ body{
   }
 }
 
+/* ### LOGIN ### */
+.p_validacion{
+  display: none;
+  text-align: center;
+  font-style: italic;
+}
 
 /* Breakpoint dekstop 992px */
