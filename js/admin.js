@@ -3,6 +3,10 @@ const agregarPeli = () => {
   const categoria = document.getElementById('categoria').value
   const descripcion = document.getElementById('descripcion').value
 
+  if (titulo == '' || categoria == '' || descripcion == '') {
+    return console.log('Faltan datos')
+  }
+
   fetch('http://localhost:3000/movies' , {
   method: "POST",
   body: JSON.stringify({
@@ -13,7 +17,9 @@ const agregarPeli = () => {
   headers: {
     'Content-type': 'application/json; charset=UTF-8',
   },
-})
+  })
+  
+
 }
 
 const obtenerPelis = async () => {
@@ -25,29 +31,17 @@ const obtenerPelis = async () => {
 const tablaPelis = async () => {
   const tabla = await obtenerPelis()
   const div = document.getElementById('tablaPelis')
-
+ 
   const peliculas = tabla.map(pelicula => (`
-  <table class="table">
-  <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="row">${pelicula.id}</th>
+      <td>${pelicula.titulo}</td>
+      <td>${pelicula.categoria}</td>
+      <td>${pelicula.descripcion}</td>
     </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-  </tbody>
-</table>
     `))
-
-    div.innerHTML = peliculas
+  
+    div.innerHTML = peliculas.join('')
   }
 
 tablaPelis()
