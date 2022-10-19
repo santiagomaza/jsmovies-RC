@@ -1,37 +1,26 @@
-.d-flex {
-  justify-content: space-between;
-  align-items: center;
+body{
+  background-color: #4e183c50;
 }
-
+/* ### CATEGORIAS HOME ###   */
 .card {
-  padding: 10px;
+  width: 17rem;
   background-color: #4e183c;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:azure;
 }
 
-.card:hover {
-  top: -5px;
-  box-shadow: 0 4px 4px;
+@media all and (min-width:768px){
+  .card{
+    width: 14rem;
+  }
 }
 
-.portada-image{
-  height: 70vh;
-  background-image: url('https://images3.alphacoders.com/124/thumb-1920-1241167.png');
-  background-size: cover;
-  background-size: 100% 450px;
-  color: #fff;
-  padding: 1em;
+
+@media all and (min-width:992px){
+  .card{
+    width: 18rem;
+  }
 }
 
-.cotainer-descripcion{
-  width: 50%;
-}
-
-span{
-  font-weight: bold;
-  text-decoration: underline;
-}
 
 
 /* ##### CAROUSEL ####### */
