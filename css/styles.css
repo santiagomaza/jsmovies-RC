@@ -1,14 +1,24 @@
+
+/* ### CATEGORIAS HOME ###   */
 body{
   background-color: #4e183c50;
 }
 .card {
-  /* padding: 10px; */
+  width: 17rem;
   background-color: #4e183c;
-  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   color:azure;
 }
 
-.row{
-  /* background-color: #4e183c; */
+@media all and (min-width:768px){
+  .card{
+    width: 14rem;
+  }
+}
+
+
+@media all and (min-width:992px){
+  .card{
+    width: 18rem;
+  }
 }
 
