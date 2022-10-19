@@ -49,6 +49,13 @@ body{
   text-shadow: 1px 1px black;
 }
 
+/* ### LOGIN ### */
+.p_validacion {
+  display: none;
+  text-align: center;
+  font-style: italic;
+}
+
 @media all and (min-width:768px){
 .carousel-inner {
     height: 70vh;
@@ -63,11 +70,6 @@ body{
   }
 }
 
-/* ### LOGIN ### */
-.p_validacion{
-  display: none;
-  text-align: center;
-  font-style: italic;
-}
+
 
 /* Breakpoint dekstop 992px */
