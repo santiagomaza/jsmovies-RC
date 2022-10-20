@@ -1,4 +1,16 @@
 {
   "movies": [
+    {
+      "titulo": "asd",
+      "categoria": "Accion",
+      "descripcion": "asd",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "pw": "123"
+    }
   ]
 }
