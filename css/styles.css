@@ -1,0 +1,78 @@
+body{
+  background-color: #4e183c50;
+}
+/* ### CATEGORIAS HOME ###   */
+.card {
+  width: 17rem;
+  background-color: #4e183c;
+  color:azure;
+}
+
+@media all and (min-width:768px){
+  .card{
+    width: 14rem;
+  }
+}
+
+
+@media all and (min-width:992px){
+  .card{
+    width: 18rem;
+  }
+}
+
+
+
+/* ##### CAROUSEL ####### */
+.carousel-inner {
+  height: 50vh;
+}
+  
+.carousel-item img {
+  height: 50vh;
+}
+
+.carousel-item p, .carousel-item h5{
+  text-align: left;
+  text-shadow: 1px 1px black;
+}
+
+.carousel-item h5{
+  font-weight: 700;
+  font-size: 1rem;
+  text-shadow: 1px 1px black;
+}
+
+
+.texto_chico{
+  font-size: .6rem;
+  text-shadow: 1px 1px black;
+}
+
+/* ### LOGIN ### */
+.p_validacion {
+  display: none;
+  text-align: center;
+  font-style: italic;
+}
+
+@media all and (min-width:768px){
+.carousel-inner {
+    height: 70vh;
+  }
+
+  .carousel-item img {
+    height: 70vh;
+  }
+
+  .carousel-item h5 {
+    font-size: 2rem;
+  }
+
+  .texto_chico{
+    font-size: 1rem; 
+  }
+}
+
+
+/* Breakpoint dekstop 992px */
