@@ -76,3 +76,12 @@ body{
 
 
 /* Breakpoint dekstop 992px */
+
+.button-style:hover{
+  background-color: #4e183c;
+<<<<<<< HEAD
+  color: black !important ;
+=======
+  color: black !important;
+>>>>>>> a9a32402097c3b8c64c951afaafd635c00ab2854
+}
