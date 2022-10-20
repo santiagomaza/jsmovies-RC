@@ -27,27 +27,24 @@ const tablaPelis = async () => {
   const div = document.getElementById('tablaPelis')
 
   const peliculas = tabla.map(pelicula => (`
-  <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
+  <table class="table table-bordered border-dark">
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+    <tr class="">
+      <th scope="row">${pelicula.id}</th>
+      <td>${pelicula.titulo}</td>
+      <td>${pelicula.categoria}</td>
+      <td>${pelicula.descripcion}</td>
+      <td><button type="submit" class="btn btn-danger" onclick="eliminarPeli()" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Borrar">
+       <i class="bi bi-trash2-fill fs-5 rounded text-white"></i>
+      </button>
+      <button type="submit" class="btn btn-primary" onclick=""><i class="bi bi-pencil-fill rounded text-white fs-5"></i></button>
+      </td>
     </tr>
   </tbody>
 </table>
     `))
 
-    div.innerHTML = peliculas
+    div.innerHTML = peliculas.join('')
   }
 
 tablaPelis()
