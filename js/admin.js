@@ -34,10 +34,10 @@ const tablaPelis = async () => {
       <td>${pelicula.titulo}</td>
       <td>${pelicula.categoria}</td>
       <td>${pelicula.descripcion}</td>
-      <td><button type="submit" class="btn btn-danger" onclick="eliminarPeli()" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Borrar">
+      <td><button type="submit" class="btn btn-danger" onclick="eliminarPeli(${pelicula.id})">
        <i class="bi bi-trash2-fill fs-5 rounded text-white"></i>
       </button>
-      <button type="submit" class="btn btn-primary" onclick=""><i class="bi bi-pencil-fill rounded text-white fs-5"></i></button>
+      <button type="button" class="btn btn-primary" onclick="editarPeli(${pelicula.id})" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-pencil-fill rounded text-white fs-5"></i></button>
       </td>
     </tr>
   </tbody>
@@ -49,3 +49,23 @@ const tablaPelis = async () => {
 
 tablaPelis()
 
+const eliminarPeli = async (id) => {
+  await fetch(`http://localhost:3000/movies/${id}` , {
+    method: "DELETE"
+  }
+  )
+}
+
+const editarPeli = async (id) => {
+  await fetch(`http://localhost:3000/movies/${id}` , {
+    method: "PUT",
+    body: JSON.stringify({
+      titulo,
+      categoria,
+      descripcion
+    }),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  })
+}

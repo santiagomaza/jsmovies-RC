@@ -1,5 +1,10 @@
 {
   "movies": [
-    
+    {
+      "titulo": "Piratas del Caribe",
+      "categoria": "Romantica",
+      "descripcion": "xxzczx",
+      "id": 1
+    }
   ]
 }
