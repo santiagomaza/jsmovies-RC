@@ -4,19 +4,203 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto 2 - Modificar Titulo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Proyecto 2 - Modificar Titulo</title>
 </head>
 <body>
-  <header>
-    <h1>Hola</h1>
-  </header>
+  <!-- #NAVEGACION# -->
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
+    <div class="container-fluid">
+      <img src="./img/FilmZone (4).png" alt="" width="50" height="50">
+      <a class="navbar-brand text-white" href="#">TheFilmZone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active button-style" aria-current="page" href="#carousel">Destacada</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active button-style" href="#generos">Generos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active button-style" href="#">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active button-style" id="" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active button-style">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main>
-
+    <!-- #CAROUSEL# -->
+      <div id="carouselExampleCaptions" class="carousel slide capa" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div id="carousel" class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="https://noddustrends.s3.amazonaws.com/uploads/2019/07/dark.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Dark</h5>
+              <section class="d-flex justify-content-start gap-2 text-align-center">
+                <p class="texto_chico bg-warning rounded p-1">Estrenos</p>
+                <p class="texto_chico bg-danger rounded p-1">2022</p>
+              </section>
+              <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
+                ipsa
+                impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
+                officia?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.elsoldeacapulco.com.mx/incoming/mbjyrl-dragon-ball-super-broly.jpg/ALTERNATES/LANDSCAPE_1140/Dragon-Ball-Super-Broly.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Dragon Ball Super Broly</h5>
+              <section class="d-flex justify-content-start gap-2 text-align-center">
+                <p class="texto_chico bg-warning rounded p-1">Infantiles</p>
+                <p class="texto_chico bg-danger rounded p-1">2022</p>
+              </section>
+              <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
+                ipsa
+                impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
+                officia?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images3.alphacoders.com/124/thumb-1920-1241167.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5>Thor amor y trueno</h5>
+              <section class="d-flex justify-content-start gap-2 text-align-center">
+                <p class="texto_chico bg-warning rounded p-1">Accion</p>
+                <p class="texto_chico bg-danger rounded p-1">2022</p>
+              </section>             
+                <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
+                  ipsa
+                  impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
+                  officia?</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- #GENEROS# -->
+      <section class="container mt-3">  
+        <h2 id="generos" class="text-decoration-underline mb-3">Generos</h2>           
+        <section class="row mb-3 gap-2">
+          <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
+            <img src="https://es.web.img2.acsta.net/c_310_420/pictures/22/08/29/15/54/5179903.jpg"  class="card-img-top pt-3" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title">ESTRENOS</h5>
+              <p class="card-text">Las últimas películas taquilleras las encontrarás aquí! Revisa nuestra sección y verás que no sabrás con que film quedarte, pues mira todos! Que los disfrutes! </p>
+              <a href="Estrenos.html" class="btn btn-primary w-100">ESTRENOS</a>
+            </div>
+          </div>
+          <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
+            <img src="https://es.web.img3.acsta.net/c_310_420/pictures/22/09/19/18/12/2005107.jpg" class="card-img-top pt-3" alt="imagen">
+            <div class="card-body">
+            <h5 class="card-title">ACCION</h5>
+            <p class="card-text">Acción es lo que buscas? pues allí vamos! Los mejores títulos están aquí para que puedas elegir y ponerle acción a tu día, que digo, a tu vida! Míralos! Películas disponibles.</p>
+            <a href="Accion.html" class="btn btn-success w-100">ACCION</a>
+            </div>
+          </div>
+          <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
+            <img src="https://es.web.img3.acsta.net/c_310_420/pictures/22/08/12/08/39/5169809.jpg" class="card-img-top pt-3"
+              alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title">ROMANTICAS</h5>
+              <p class="card-text">Amor, en todas sus versiones! Enamórate del amor! Si éste genero es lo tuyo, no te vas a
+                arrepentir. Mira lo que tenemos para tí, hecha un vistazo! Películas disponibles.</p>
+              <a href="Romanticas.html" class="btn btn-warning w-100">ROMANTICAS</a>
+            </div>
+          </div>
+        </section>
+        <section class="row gap-2">
+          <div class="card rounded-0 border-0 mx-auto col-12 col-md-6 col-lg-4">
+            <img src="https://es.web.img2.acsta.net/c_310_420/pictures/22/06/14/12/51/2834709.jpg" class="card-img-top pt-3"
+              alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title">COMEDIA</h5>
+              <p class="card-text">Quieres reirte hasta no dar más? La mejor opción entonces para ti es una comedia para ver,
+                disfrutar y llorar de la risa! Diviértete con nuestra selección! Películas disponibles.</p>
+              <a href="Comedia.html" class="btn btn-danger w-100">COMEDIA</a>
+            </div>
+          </div>
+          <div class="card card rounded-0 border-0 mx-auto col-12 col-md-6 col-lg-4">
+            <img src="https://es.web.img2.acsta.net/c_310_420/pictures/22/09/07/12/24/2686804.jpg" class="card-img-top pt-3" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title">INFANTILES</h5>
+              <p class="card-text">Anime, Disney y mucho más..! Sumérgete en este mundo de fantasía y vive las aventuras de este género. Todas en un solo lugar, escoge la que quieras y comienza ya!</p>
+              <a href="Infantiles.html" class="btn btn-info w-100">INFANTILES</a>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- #MODAL DE LOGEO# --> 
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">Ingresa tu cuenta</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="emailForm" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="emailForm" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                  <label for="pwForm" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="pwForm" required>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                  <p id="parrafo_user" class="text-danger p_validacion">Usuario incorrecto</p>
+                </div>
+                <button id="button_Form" type="button" class="btn btn-primary w-100">Ingresar</button>
+              </form>
+          </div>
+        </div>
+      </div>
   </main>
-  <footer>
-    
+  <footer class="p-5 bg-color text-light" >
+    <div class="text-center">
+      <h5 class="text-center">Seguinos en nuestras redes</h5>
+    <div>
+      <i class="bi bi-facebook"> Facebook</i>
+      <p>The Film Zone</p>
+    </div>
+    <div>
+      <i class="bi bi-instagram"> Instagram</i>
+      <p>TheFilmZoneOk</p>
+    </div>
+    <div>
+      <i class="bi bi-twitter"> Twitter</i>
+      <p>TheFilmZone</p>
+    </div>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="js/index.js"></script>

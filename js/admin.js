@@ -3,6 +3,10 @@ const agregarPeli = () => {
   const categoria = document.getElementById('categoria').value
   const descripcion = document.getElementById('descripcion').value
 
+  if (titulo == '' || categoria == '' || descripcion == '') {
+    return console.log('Faltan datos')
+  }
+
   fetch('http://localhost:3000/movies' , {
   method: "POST",
   body: JSON.stringify({
@@ -13,7 +17,9 @@ const agregarPeli = () => {
   headers: {
     'Content-type': 'application/json; charset=UTF-8',
   },
-})
+  })
+  
+
 }
 
 const obtenerPelis = async () => {
@@ -25,7 +31,7 @@ const obtenerPelis = async () => {
 const tablaPelis = async () => {
   const tabla = await obtenerPelis()
   const div = document.getElementById('tablaPelis')
-
+ 
   const peliculas = tabla.map(pelicula => (`
   <table class="table table-bordered border-dark">
   <tbody>
