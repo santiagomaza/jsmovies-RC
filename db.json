@@ -1,3 +1,16 @@
 {
-  "movies": []
+  "movies": [
+    {
+      "titulo": "Piratas del Caribe",
+      "categoria": "Accion",
+      "descripcion": "Una peli re piola\n",
+      "id": 1
+    },
+    {
+      "titulo": "Madagascar",
+      "categoria": "Romantica",
+      "descripcion": "Buenardaaaaa",
+      "id": 2
+    }
+  ]
 }
