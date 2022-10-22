@@ -1,16 +1,10 @@
 {
   "movies": [
     {
-      "titulo": "Piratas del Caribe",
-      "categoria": "Accion",
-      "descripcion": "Una peli re piola\n",
+      "titulo": "PELI 4",
+      "categoria": "Drama",
+      "descripcion": "4",
       "id": 1
-    },
-    {
-      "titulo": "Madagascar",
-      "categoria": "Romantica",
-      "descripcion": "Buenardaaaaa",
-      "id": 2
     }
   ]
 }
