@@ -21,8 +21,6 @@ body{
   }
 }
 
-
-
 /* ##### CAROUSEL ####### */
 .carousel-inner {
   height: 50vh;
@@ -74,6 +72,30 @@ body{
   }
 }
 
+.fa-brands{
+  color: #ffff;
+}
+
+.fa-solid{
+  color: #ffff;
+}
+
+i:hover{
+  transform: scale(1.1);
+}
+
+a li:hover{
+  color: #ffff;
+  text-decoration: underline;
+}
+
+.imgfooter{
+  height: 80px;
+}
+
+.imgfooter:hover{
+  transform: scale(1.1);
+}
 
 /* Breakpoint dekstop 992px */
 
