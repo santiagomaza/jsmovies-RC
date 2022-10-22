@@ -1,16 +1,16 @@
 {
   "movies": [
     {
-      "titulo": "asd",
+      "titulo": "Piratas del Caribe",
       "categoria": "Accion",
-      "descripcion": "asd",
+      "descripcion": "Una peli re piola\n",
       "id": 1
-    }
-  ],
-  "users": [
+    },
     {
-      "email": "admin@admin.com",
-      "pw": "123"
+      "titulo": "Madagascar",
+      "categoria": "Romantica",
+      "descripcion": "Buenardaaaaa",
+      "id": 2
     }
   ]
 }
