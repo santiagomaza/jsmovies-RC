@@ -8,7 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/css/styles.css">
-  <title>Proyecto 2 - Modificar Titulo</title>
+  <link class="img" rel="shortcut icon" href="./img/FilmZone (4).png">
+  <title>TheFilmZone</title>
 </head>
 <body>
   <!-- #NAVEGACION# -->
@@ -52,17 +53,14 @@
           </div>
         <div id="carousel" class="carousel-inner">
           <div class="carousel-item active ">
-            <img src="https://noddustrends.s3.amazonaws.com/uploads/2019/07/dark.jpg" class="d-block w-100" alt="...">
+            <img src="./img/dark.webp" class="d-block w-100" alt="" srcset="">
             <div class="carousel-caption">
               <h5>Dark</h5>
               <section class="d-flex justify-content-start gap-2 text-align-center">
                 <p class="texto_chico bg-warning rounded p-1">Estrenos</p>
                 <p class="texto_chico bg-danger rounded p-1">2022</p>
               </section>
-              <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
-                ipsa
-                impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
-                officia?</p>
+              <p class="d-none d-md-block">La desaparición de dos niños muestra los vínculos entre cuatro familias y expone el pasado de una pequeña ciudad.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -75,10 +73,7 @@
                 <p class="texto_chico bg-warning rounded p-1">Infantiles</p>
                 <p class="texto_chico bg-danger rounded p-1">2022</p>
               </section>
-              <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
-                ipsa
-                impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
-                officia?</p>
+              <p class="d-none d-md-block">Goku y Vegeta encuentran a Broly, un guerrero Saiyajin. Pero, ¿cómo sobrevivió a la destrucción de su planeta y dónde estuvo todo ese tiempo? La situación empeora todavía más cuando Freezer vuelve al mundo de los vivos desde el infierno.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -89,10 +84,7 @@
                 <p class="texto_chico bg-warning rounded p-1">Accion</p>
                 <p class="texto_chico bg-danger rounded p-1">2022</p>
               </section>             
-                <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
-                  ipsa
-                  impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
-                  officia?</p>
+                <p class="d-none d-md-block">Thor está buscando la paz interior, pero la irrupción de Gorr, el asesino de dioses, le obliga a volver al combate. Thor recluta a la Reina Valkiria, Korg y su exnovia, Jane Foster, para que lo ayuden a evitar la extinción de los dioses.</p>
             </div>
           </div>
         </div>
@@ -106,7 +98,7 @@
         </button>
       </div>
       <!-- #GENEROS# -->
-      <section class="container mt-3">  
+      <!-- <section class="container mt-3">  
         <h2 id="generos" class="text-decoration-underline mb-3">Generos</h2>           
         <section class="row mb-3 gap-2">
           <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
@@ -156,7 +148,31 @@
             </div>
           </div>
         </section>
+      </section> -->
+      <!-- ### GENEROS NUEVA #### -->
+      <section class="generos">
+        <h2>Generos</h2>
+        <section class="container">
+          <seciton class="row">
+            <a href="./html/Estrenos.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 portada_hover portada_estrenos d-flex justify-content-center align-items-center">
+              <h3>ESTRENOS</h3>             
+            </a>
+            <a href="./html/Accion.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 portada_hover text-center portada_accion d-flex justify-content-center align-items-center">
+              <h3>ACCION</h3>
+            </a>
+            <a href="./html/Romanticas.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 portada_hover text-center portada_romanticas d-flex justify-content-center align-items-center">
+              <h3>ROMANTICAS</h3>
+            </a>
+              <a href="./html/Comedia.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 mx-md-auto portada_hover text-center portada_comedia d-flex justify-content-center align-items-center">
+                <h3>COMEDIA</h3>
+              </a>
+              <a href="./html/Infantiles.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 mx-md-auto portada_hover text-center portada_infantiles d-flex justify-content-center align-items-center">
+                <h3>INFANTILES</h3>
+              </a>
+            </seciton>
+        </section>
       </section>
+      
       <!-- #MODAL DE LOGEO# --> 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -221,7 +237,7 @@
             <li class="me-4">Ayuda</li>
           </a>
           <a href="/html/error.html" target="_blank">
-            <li class="me-4">Suscribit</li>
+            <li class="me-4">Suscribite</li>
           </a>
         </ul>
       </div>
