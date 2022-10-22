@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/fce5700ff2.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/css/styles.css">
-  <title>Proyecto 2 - Modificar Titulo</title>
+  <link class="img" rel="shortcut icon" href="./img/FilmZone (4).png">
+  <title>TheFilmZone</title>
 </head>
 <body>
   <!-- #NAVEGACION# -->
-  <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
+  <nav class="navbar navbar-dark navbar-expand-lg bg-color sticky-top">
     <div class="container-fluid">
-      <img src="./img/FilmZone (4).png" alt="" width="50" height="50">
+      <img src="./img/FilmZone (4).png" alt="logo" width="50" height="50">
       <a class="navbar-brand text-white" href="#">TheFilmZone</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,17 +53,14 @@
           </div>
         <div id="carousel" class="carousel-inner">
           <div class="carousel-item active ">
-            <img src="https://noddustrends.s3.amazonaws.com/uploads/2019/07/dark.jpg" class="d-block w-100" alt="...">
+            <img src="./img/dark.webp" class="d-block w-100" alt="" srcset="">
             <div class="carousel-caption">
               <h5>Dark</h5>
               <section class="d-flex justify-content-start gap-2 text-align-center">
                 <p class="texto_chico bg-warning rounded p-1">Estrenos</p>
                 <p class="texto_chico bg-danger rounded p-1">2022</p>
               </section>
-              <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
-                ipsa
-                impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
-                officia?</p>
+              <p class="d-none d-md-block">La desaparición de dos niños muestra los vínculos entre cuatro familias y expone el pasado de una pequeña ciudad.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -74,10 +73,7 @@
                 <p class="texto_chico bg-warning rounded p-1">Infantiles</p>
                 <p class="texto_chico bg-danger rounded p-1">2022</p>
               </section>
-              <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
-                ipsa
-                impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
-                officia?</p>
+              <p class="d-none d-md-block">Goku y Vegeta encuentran a Broly, un guerrero Saiyajin. Pero, ¿cómo sobrevivió a la destrucción de su planeta y dónde estuvo todo ese tiempo? La situación empeora todavía más cuando Freezer vuelve al mundo de los vivos desde el infierno.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -88,10 +84,7 @@
                 <p class="texto_chico bg-warning rounded p-1">Accion</p>
                 <p class="texto_chico bg-danger rounded p-1">2022</p>
               </section>             
-                <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolore pariatur maiores obcaecati blanditiis,
-                  ipsa
-                  impedit sunt quaerat quos, sequi veniam quis voluptas repudiandae consequatur eos eius ipsam voluptatum
-                  officia?</p>
+                <p class="d-none d-md-block">Thor está buscando la paz interior, pero la irrupción de Gorr, el asesino de dioses, le obliga a volver al combate. Thor recluta a la Reina Valkiria, Korg y su exnovia, Jane Foster, para que lo ayuden a evitar la extinción de los dioses.</p>
             </div>
           </div>
         </div>
@@ -105,7 +98,7 @@
         </button>
       </div>
       <!-- #GENEROS# -->
-      <section class="container mt-3">  
+      <!-- <section class="container mt-3">  
         <h2 id="generos" class="text-decoration-underline mb-3">Generos</h2>           
         <section class="row mb-3 gap-2">
           <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
@@ -155,7 +148,31 @@
             </div>
           </div>
         </section>
+      </section> -->
+      <!-- ### GENEROS NUEVA #### -->
+      <section class="generos">
+        <h2>Generos</h2>
+        <section class="container">
+          <seciton class="row">
+            <a href="./html/Estrenos.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 portada_hover portada_estrenos d-flex justify-content-center align-items-center">
+              <h3>ESTRENOS</h3>             
+            </a>
+            <a href="./html/Accion.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 portada_hover text-center portada_accion d-flex justify-content-center align-items-center">
+              <h3>ACCION</h3>
+            </a>
+            <a href="./html/Romanticas.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 portada_hover text-center portada_romanticas d-flex justify-content-center align-items-center">
+              <h3>ROMANTICAS</h3>
+            </a>
+              <a href="./html/Comedia.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 mx-md-auto portada_hover text-center portada_comedia d-flex justify-content-center align-items-center">
+                <h3>COMEDIA</h3>
+              </a>
+              <a href="./html/Infantiles.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 mx-md-auto portada_hover text-center portada_infantiles d-flex justify-content-center align-items-center">
+                <h3>INFANTILES</h3>
+              </a>
+            </seciton>
+        </section>
       </section>
+      
       <!-- #MODAL DE LOGEO# --> 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -184,25 +201,58 @@
           </div>
         </div>
       </div>
-      <footer class="p-5">
-        <img src="./img/FilmZone (4).png" class="img position-absolute" alt="...">
-        <div class="text-center">
-          <h5 class="text-center">Seguinos en nuestras redes</h5>
-        <div>
-          <i class="bi bi-facebook"> Facebook</i>
-          <p>The Film Zone</p>
-        </div>
-        <div>
-          <i class="bi bi-instagram"> Instagram</i>
-          <p>TheFilmZoneOk</p>
-        </div>
-        <div>
-          <i class="bi bi-twitter"> Twitter</i>
-          <p>TheFilmZone</p>
-        </div>
-        </div>
-      </footer>
   </main>
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-12 bg-color p-1">
+        <ul class="d-flex align-items-center justify-content-center list-unstyled fs-3">
+          <a href="https://es-la.facebook.com/" target="_blank">
+            <li><i class="fa-brands fa-facebook-f me-4"></i></li>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <li><i class="fa-brands fa-instagram me-4"></i></li>
+          </a>
+          <a href="/index.html">
+            <li><img src="./img/FilmZone (4).png" alt="logo" class="imgfooter"></li>
+          </a>
+          <a href="https://twitter.com/?lang=es" target="_blank">
+            <li><i class="fa-brands fa-twitter ms-4"></i></li>
+          </a>
+          <a href="mailto:the.film.zone@gmail.com?subject=Contacto" target="_blank">
+            <li><i class="fa-solid fa-envelope ms-4"></i></li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 bg-color text-white">
+        <ul class="d-flex flex-wrap justify-content-center list-unstyled">
+          <a href="/html/error.html" target="_blank">
+            <li class="me-4">Nosotros</li>
+          </a>
+          <a href="/html/error.html" target="_blank">
+            <li class="me-4">Derechos</li>
+          </a>
+          <a href="/html/error.html" target="_blank">
+            <li class="me-4">Ayuda</li>
+          </a>
+          <a href="/html/error.html" target="_blank">
+            <li class="me-4">Suscribite</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="row bg-black text-secondary">
+      <div
+        class="col-sm-12 col-md-6 col-lg-6 d-flex  justify-content-center justify-content-sm-center justify-content-md-start ">
+        <p class="mb-0">© The Film Zone - All Rights Reserved</p>
+      </div>
+      <div
+        class="col-sm-12 col-md-6 col-lg-6 d-flex  justify-content-center justify-content-sm-center justify-content-md-end ">
+        <p class="mb-0">Powered by Grupo N°3 - RC</p>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="js/index.js"></script>
 </body>
