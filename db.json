@@ -1,22 +1,18 @@
 {
   "movies": [
     {
-      "titulo": "peli 1",
+      "titulo": "Punisher",
       "categoria": "Accion",
       "descripcion": "peli 1",
+      "img": "https://i.pinimg.com/originals/66/f2/72/66f2726dd147fb17219143e307bf806f.jpg",
       "id": 1
     },
     {
-      "titulo": "pelicula 2",
-      "categoria": "Romantica",
-      "descripcion": "pelicula 2",
-      "id": 2
-    },
-    {
-      "titulo": "peli 3",
+      "titulo": "Deadpool",
       "categoria": "Accion",
-      "descripcion": "peli 3",
-      "id": 3
+      "descripcion": "peli 2",
+      "img": "https://i1.wp.com/www.tomosygrapas.com/wp-content/uploads/2021/02/Portada-Deadpool-30-An%CC%83os.jpg?ssl=1",
+      "id": 2
     }
   ]
 }

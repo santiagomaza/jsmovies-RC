@@ -1,4 +1,13 @@
+.img_destacada img{
+  width: 100%;
+  height: auto;
+}
 
+@media all and (min-width:992px){
+  .img_destacada img{
+  height: 400px;
+  }
+}
 
 
  
