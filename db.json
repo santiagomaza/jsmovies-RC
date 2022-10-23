@@ -1,34 +1,19 @@
 {
   "movies": [
     {
-      "titulo": "PELICULA N°1",
-      "categoria": "Romantica",
-      "descripcion": "DSFSAFFASDFASFFAS",
+      "titulo": "Punisher",
+      "categoria": "Accion",
+      "descripcion": "peli 1",
+      "img": "https://i.pinimg.com/originals/66/f2/72/66f2726dd147fb17219143e307bf806f.jpg",
       "id": 1
     },
     {
-      "titulo": "PELICULA N°2",
+      "titulo": "Deadpool",
       "categoria": "Accion",
-      "descripcion": "ASMOASMAMfpMAPOFAMFMOFMODSF",
+      "descripcion": "peli 2",
+      "img": "https://i1.wp.com/www.tomosygrapas.com/wp-content/uploads/2021/02/Portada-Deadpool-30-An%CC%83os.jpg?ssl=1",
       "id": 2
-    },
-    {
-      "titulo": "PELICULA N°3 ",
-      "categoria": "Accion",
-      "descripcion": "fdsfsdfdsfdsfsdfsdfsdfsd",
-      "id": 3
-    },
-    {
-      "titulo": "Piratas del Caribe",
-      "categoria": "Accion",
-      "descripcion": "dsfsfdsf",
-      "id": 4
-    },
-    {
-      "titulo": "E.T",
-      "categoria": "Romantica",
-      "descripcion": "asddas",
-      "id": 5
     }
+    
   ]
 }

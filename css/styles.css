@@ -1,51 +1,106 @@
-body{
+body {
   background-color: #4e183c50;
 }
 /* ### CATEGORIAS HOME ###   */
 .card {
   width: 17rem;
   background-color: #4e183c;
-  color:azure;
+  color: azure;
 }
 
-@media all and (min-width:768px){
-  .card{
-    width: 14rem;
+/* ####### NUEVAS CATEGORIAS ####### */
+.portada_accion,
+.portada_comedia,
+.portada_estrenos,
+.portada_infantiles,
+.portada_romanticas {
+  text-shadow: 2px 2px black;
+}
+
+.generos h3 {
+  font-size: 2rem;
+}
+
+.generos article {
+  opacity: 1;
+  transition: all 1s linear;
+}
+.generos a {
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.portada_estrenos {
+  background-image: url("https://es.web.img2.acsta.net/c_310_420/pictures/22/08/29/15/54/5179903.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 420px;
+}
+
+.portada_accion {
+  background-image: url("https://es.web.img3.acsta.net/c_310_420/pictures/22/09/19/18/12/2005107.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 420px;
+}
+
+.portada_romanticas {
+  background-image: url("https://es.web.img3.acsta.net/c_310_420/pictures/22/08/12/08/39/5169809.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 420px;
+}
+
+.portada_comedia {
+  background-image: url("https://es.web.img2.acsta.net/c_310_420/pictures/22/06/14/12/51/2834709.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 420px;
+}
+
+.portada_infantiles {
+  background-image: url("https://es.web.img2.acsta.net/c_310_420/pictures/22/09/07/12/24/2686804.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 420px;
+}
+
+@media all and (min-width: 992px) {
+  .generos article:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s linear;
+  }
+
+  .generos a:hover {
+    opacity: 0.6;
+    transition: all 1s linear;
   }
 }
-
-
-@media all and (min-width:992px){
-  .card{
-    width: 18rem;
-  }
-}
-
-
 
 /* ##### CAROUSEL ####### */
 .carousel-inner {
   height: 50vh;
 }
-  
+
 .carousel-item img {
   height: 50vh;
 }
 
-.carousel-item p, .carousel-item h5{
+.carousel-item p,
+.carousel-item h5 {
   text-align: left;
   text-shadow: 1px 1px black;
 }
 
-.carousel-item h5{
+.carousel-item h5 {
   font-weight: 700;
   font-size: 1rem;
   text-shadow: 1px 1px black;
 }
 
-
-.texto_chico{
-  font-size: .6rem;
+.texto_chico {
+  font-size: 0.6rem;
   text-shadow: 1px 1px black;
 }
 
@@ -56,8 +111,8 @@ body{
   font-style: italic;
 }
 
-@media all and (min-width:768px){
-.carousel-inner {
+@media all and (min-width: 768px) {
+  .carousel-inner {
     height: 70vh;
   }
 
@@ -69,21 +124,41 @@ body{
     font-size: 2rem;
   }
 
-  .texto_chico{
-    font-size: 1rem; 
+  .texto_chico {
+    font-size: 1rem;
   }
 }
 
+.fa-brands {
+  color: #ffff;
+}
+
+.fa-solid {
+  color: #ffff;
+}
+
+i:hover {
+  transform: scale(1.1);
+}
+
+a li:hover {
+  color: #ffff;
+  text-decoration: underline;
+}
+
+.imgfooter {
+  height: 80px;
+}
+
+.imgfooter:hover {
+  transform: scale(1.1);
+}
 
 /* Breakpoint dekstop 992px */
 
-.button-style:hover{
+.button-style:hover {
   background-color: #4e183c;
-<<<<<<< HEAD
   color: black !important ;
-=======
-  color: black !important;
->>>>>>> a9a32402097c3b8c64c951afaafd635c00ab2854
 }
 
 .bg-color {
