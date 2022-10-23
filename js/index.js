@@ -42,3 +42,47 @@ const getDestacada = () => {
 };
 
 getDestacada();
+
+const obtenerPelis = async () => {
+  const results = await fetch("http://localhost:3000/movies");
+  const pelis = await results.json();
+  // console.log(pelis)
+  return pelis;
+};
+
+// obtenerPelis()
+const mapeoPeliculas = async () => {
+  /*
+  ### CARD ###
+  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+*/
+  const peli = await obtenerPelis();
+  const div = document.getElementById("container_peliculas");
+
+  console.log("Agregando pelicula");
+
+  const peliculas = peli.map(
+    (pelicula) => `
+    <div class="card" style="width: 15rem;">
+      <img src="${pelicula.img}" class="card-img-top col-lg-3" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">${pelicula.titulo}</h5>
+        <p class="card-text">Año: ${pelicula.anio}</p>
+        <p class="card-text">Duracion: ${pelicula.duracion}</p>
+        <p class="card-text">${pelicula.descripcion}</p>
+      </div>
+    </div>
+    `
+  );
+
+  div.innerHTML = peliculas.join("");
+}
+
+mapeoPeliculas()

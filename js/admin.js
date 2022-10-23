@@ -1,6 +1,6 @@
 const agregarPeli = () => {
-  const titulo = document.getElementById("titulo").value;
   const categoria = document.getElementById("categoria").value;
+  const titulo = document.getElementById("titulo").value;
   const descripcion = document.getElementById("descripcion").value;
 
   console.log("Ejecutando AgregarPeli");
@@ -23,7 +23,7 @@ const agregarPeli = () => {
 };
 
 const obtenerPelis = async () => {
-  const results = await fetch("http://localhost:3000/movies");
+  const results = await fetch("http://localhost:3000/agregadas");
   const pelis = await results.json();
   return pelis;
 };
