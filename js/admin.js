@@ -3,8 +3,6 @@ const agregarPeli = () => {
   const titulo = document.getElementById("titulo").value;
   const descripcion = document.getElementById("descripcion").value;
 
-  console.log("Ejecutando AgregarPeli");
-
   if (titulo == "" || categoria == "" || descripcion == "") {
     return false;
   }
@@ -45,7 +43,7 @@ const tablaPelis = async () => {
        <i class="bi bi-trash2-fill fs-5 rounded text-white"></i>
       </button>
       <button type="button" class="btn btn-primary" onclick="editarPeli(${pelicula.id})" data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi bi-pencil-fill rounded text-white fs-5"></i></button>
-     <button type="button" onclick="asignarDestacada('${pelicula.img}', '${pelicula.categoria}')">D</button>
+      <button type="button" class="rounded" onclick="asignarDestacada('${pelicula.img}', '${pelicula.categoria}')"><i class="bi bi-star"></i></button>
     </tr>
     `
   );
@@ -62,18 +60,17 @@ const eliminarPeli = async (id) => {
 };
 
 const editarPeli = async (id) => {
-  console.log("EJECUTANDO EDICION");
 
   let boton = document.getElementById("boton-cambiar");
   boton.addEventListener("click", async () => {
     const titulo = document.getElementById("nvTitulo").value;
     const categoria = document.getElementById("nvCategoria").value;
     const descripcion = document.getElementById("nvDescripcion").value;
-    console.log(titulo, categoria, descripcion, id);
 
     if (titulo == "" || categoria == "" || descripcion == "") {
       return false;
     }
+
     await fetch(`http://localhost:3000/movies/${id}`, {
       method: "PUT",
       body: JSON.stringify({
@@ -97,23 +94,3 @@ const asignarDestacada = (img, categoria) => {
   alert("La imagen DESTACADA fue asignada con EXITO!");
 };
 
-// #### COSA TROMBOLICA ######
-(() => {
-  "use strict";
-
-  const forms = document.querySelectorAll(".needs-validation");
-
-  Array.from(forms).forEach((form) => {
-    form.addEventListener(
-      "submit",
-      (event) => {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add("was-validated");
-      },
-      false
-    );
-  });
-})();
