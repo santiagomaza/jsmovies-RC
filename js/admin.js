@@ -18,7 +18,6 @@ const agregarPeli = () => {
     'Content-type': 'application/json; charset=UTF-8',
   },
   })
-  
 
 }
 
@@ -43,7 +42,7 @@ const tablaPelis = async () => {
       <td><button type="submit" class="btn btn-danger" onclick="eliminarPeli(${pelicula.id})">
        <i class="bi bi-trash2-fill fs-5 rounded text-white"></i>
       </button>
-      <button type="button" class="btn btn-primary" onclick="editarPeli(${pelicula.id})" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-pencil-fill rounded text-white fs-5"></i></button>
+      <button type="button" class="btn btn-primary" onclick="" data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi bi-pencil-fill rounded text-white fs-5"></i></button>
       </td>
     </tr>
   </tbody>
@@ -63,6 +62,10 @@ const eliminarPeli = async (id) => {
 }
 
 const editarPeli = async (id) => {
+  const titulo = document.getElementById('nvTitulo').value
+  const categoria = document.getElementById('nvCategoria').value
+  const descripcion = document.getElementById('nvDescripcion').value
+
   await fetch(`http://localhost:3000/movies/${id}` , {
     method: "PUT",
     body: JSON.stringify({

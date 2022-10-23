@@ -1,3 +1,10 @@
 {
-  "movies": []
+  "movies": [
+    {
+      "titulo": "Interestelar",
+      "categoria": "Accion",
+      "descripcion": "sadasd",
+      "id": 1
+    }
+  ]
 }
