@@ -1,10 +1,22 @@
 {
   "movies": [
     {
-      "titulo": "PELI 4",
-      "categoria": "Drama",
-      "descripcion": "4",
+      "titulo": "peli 1",
+      "categoria": "Accion",
+      "descripcion": "peli 1",
       "id": 1
+    },
+    {
+      "titulo": "pelicula 2",
+      "categoria": "Romantica",
+      "descripcion": "pelicula 2",
+      "id": 2
+    },
+    {
+      "titulo": "peli 3",
+      "categoria": "Accion",
+      "descripcion": "peli 3",
+      "id": 3
     }
   ]
 }
