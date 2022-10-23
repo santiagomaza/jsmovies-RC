@@ -1,16 +1,115 @@
 {
   "movies": [
     {
-      "titulo": "Piratas del Caribe",
+     "titulo": "Punisher",
+      "anio": "2004",
+      "duracion": "1h 36m",
       "categoria": "Accion",
-      "descripcion": "Una peli re piola\n",
+      "descripcion": "Un agente encubierto del FBI se convierte en un asesino vigilante y se propone desatar su ira contra el hombre de negocios corrupto que masacró a toda su familia en una reunión.",
+      "img": "https://www.themoviedb.org/t/p/original/qGhn72JeMKpYKlyJKsOvCqyp4DF.jpg",
       "id": 1
     },
     {
-      "titulo": "Madagascar",
-      "categoria": "Romantica",
-      "descripcion": "Buenardaaaaa",
+      "titulo": "Deadpool",
+      "anio": "2016",
+      "duracion": "1h 49m",
+      "categoria": "Accion",
+      "descripcion": "Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando Wade entonces el alter ego de Deadpool.",
+      "img": "https://i1.wp.com/www.tomosygrapas.com/wp-content/uploads/2021/02/Portada-Deadpool-30-An%CC%83os.jpg?ssl=1",
+      "id": 2
+    },
+    {
+      "titulo": "Accident Man: Hitman's Holiday",
+      "anio": "2022",
+      "duracion": "1h 36m",
+      "categoria": "Accion",
+      "descripcion": "The Accident Man está de regreso y esta vez debe vencer a los mejores asesinos del mundo, para proteger al hijo ingrato de un jefe de la mafia, salvar la vida de su único amigo y reavivar su relación con su maníaca figura paterna",
+      "img": "https://pics.filmaffinity.com/Accident_Man_Hitman_s_Holiday-836908615-large.jpg",
+      "id": 3
+    },
+    {
+      "titulo": "Tropa de élite",
+      "anio": " 2007",
+      "duracion": "1h 54m",
+      "categoria": "Accion",
+      "descripcion": "Brasil, año 1997. El capitán Nascimento (Wagner Moura) está al mando de un escuadrón del Batallón de Operaciones Policiales Especiales (BOPE), un cuerpo de élite de la policía de Río de Janeiro. Su misión es actuar en las favelas, en las que la policía, por miedo o por corrupción, no interviene.",
+      "img": "https://es.web.img3.acsta.net/medias/nmedia/18/66/88/41/20350649.jpg",
+      "id": 4
+    },
+    {
+      "titulo": "Tortugas Ninja",
+      "anio": "1990",
+      "duracion": "1h 34m",
+      "categoria": "Accion",
+      "descripcion": "Después de haber sido contaminadas con una misteriosa sustancia química, llamada Ooze, cuatro tortugas que viven en las alcantarillas de Nueva York se transforman y mutan, de repente, en grandes tortugas. Ahora pueden hablar y caminar como un ser humano. Entrenadas por una vieja pero sabia rata (el Maestro Splinter) las cuatro tortugas, Leonardo, Miguel Ángel, Donatello y Rafael, aprenderán técnicas ninja para enfrentarse a los más peligrosos criminales.",
+      "img": "https://www.tebeosfera.com/T3content/img/T3_numeros/_/1/tortugas_ninja_mutantes_planeta-deagostini_1990_1/w-423_tortugas_ninja_mutantes_planeta-deagostini_1990_1.jpg",
+      "id": 5
+    },
+    {
+      "titulo": "Karate Kid II, la historia continúa",
+      "anio": "1986",
+      "duracion": "1h 53m",
+      "categoria": "Accion",
+      "descripcion": "Daniel y el señor Miyagi viajan a Okinawa, a la pequeña aldea en la que el anciano nació y de la que tuvo que marcharse por un asunto de honor. Su padre está gravemente enfermo y quiere verlo, pero también le espera su antiguo amor de juventud. ",
+      "img": "https://es.web.img3.acsta.net/medias/nmedia/18/92/04/29/20176736.jpg",
+      "id": 6
+    },
+    {
+      "titulo": "Danger! Danger!",
+      "anio": "2021",
+      "duracion": "1h 16m",
+      "categoria": "Accion",
+      "descripcion": "Es 1985 y el aventurero Jonathan Danger acaba de aterrizar en una isla a 20 millas de la costa de África. Está buscando un templo que puede o no ser su billete para volver al pasado. Lástima que los soviéticos hayan llegado primero. Lástima que quieran retroceder en el tiempo para cambiar los acontecimientos de la Carrera Espacial, la Guerra Fría y la Segunda Guerra Mundial.",
+      "img": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2021/3/w1280/uoaYhQA7iyu4Zo4WxbWvGnW3B3X.jpg",
+      "id": 7
+    },
+    {
+      "titulo": "Guerra Mundial Z",
+      "anio": "2013",
+      "duracion": "1h 56m",
+      "categoria": "Accion",
+      "descripcion": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane, un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. ",
+      "img": "https://es.web.img3.acsta.net/pictures/210/100/21010064_20130604100548596.jpg",
+      "id": 8
+    },
+    {
+      "titulo": "The Enforcer",
+      "anio": "2022",
+      "duracion": "1h 30m",
+      "categoria": "Accion",
+      "descripcion": "La película, un thriller negro ambientado en Miami, sigue a un policía que descubre que su jefe, una mujer fatal, se ha convertido en un traficante de sexo, lo que pone en peligro a una joven fugitiva de la que se ha hecho amigo.",
+      "img": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2022/9/w1280/pXC8JJbfnRWtbD8i2yKFqqWEO4X.jpg",
+      "id": 9
+    },
+    {
+      "titulo": "Section 8",
+      "anio": "2022",
+      "duracion": "1h 38m ",
+      "categoria": "Accion",
+      "descripcion": "Tras vengar el asesinato de su familia, un ex soldado sale de la cárcel y es reclutado por una oscura agencia gubernamental.",
+      "img": "https://m.media-amazon.com/images/M/MV5BODNjNzZhYjItMzk1Zi00Y2I3LTgxM2YtMjliM2Y5N2ZhNDY3XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_FMjpg_UX1000_.jpg",
+      "id": 10
+    }
+  ],
+  "agregadas":[
+   {
+      "titulo": "Lágrimas del sol",
+      "anio": "2003",
+      "duracion": "2h 1m",
+      "categoria": "Accion",
+      "descripcion": "Un equipo liderado por un veterano oficial de la unidad especial SEAL, el teniente Waters (Bruce Willis), se adentra en el corazón de África con la misión de rescatar a la Dra. Lena Kendrick",
+      "img": "https://i.pinimg.com/originals/33/b2/57/33b257f4afee07daba63c67202038fc8.jpg",
+      "id": 1
+    },
+    {
+      "titulo": "El último héroe",
+      "anio": "2019",
+      "duracion": "2h 1m",
+      "categoria": "Accion",
+      "descripcion": "Hace quince años, Andrei, bajo la tutela de su padre, el coronel Rodin, fue entrenado en una escuela secreta, donde los agentes eran preparados siendo adolescentes. Cuando el proyecto piloto fue cerrado, Andrei, se quedó en Europa y trató de olvidar su pasado.",
+      "img": "https://pics.filmaffinity.com/geroy-637410697-large.jpg",
       "id": 2
     }
+    
   ]
 }
