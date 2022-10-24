@@ -5,21 +5,21 @@ const getUser = async () => {
 };
 
 
-let botonForm = document.getElementById("button_Form");
-botonForm.addEventListener("click", async () => {
-  let email = document.getElementById("emailForm");
-  let password = document.getElementById("pwForm");
-  let incorrecto = document.getElementById("parrafo_user");
-  console.log("ejecutando");
-  const data = await getUser();
-  if (email.value == data[0].email && password.value == data[0].pw) {
-    window.location.href = "/html/admin.html";
-  } else {
-    email.classList.add("border-danger");
-    password.classList.add("border-danger");
-    incorrecto.classList.add("d-block");
-  }
-});
+// let botonForm = document.getElementById("button_Form");
+// botonForm.addEventListener("click", async () => {
+//   let email = document.getElementById("emailForm");
+//   let password = document.getElementById("pwForm");
+//   let incorrecto = document.getElementById("parrafo_user");
+//   console.log("ejecutando");
+//   const data = await getUser();
+//   if (email.value == data[0].email && password.value == data[0].pw) {
+//     window.location.href = "/html/admin.html";
+//   } else {
+//     email.classList.add("border-danger");
+//     password.classList.add("border-danger");
+//     incorrecto.classList.add("d-block");
+//   }
+// });
 
 
 const getDestacada = () => {
@@ -50,17 +50,6 @@ const obtenerPelis = async () => {
 
 // obtenerPelis()
 const mapeoPeliculas = async () => {
-  /*
-  ### CARD ###
-  <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-*/
   const peli = await obtenerPelis();
   const div = document.getElementById("container_peliculas");
 
