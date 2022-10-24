@@ -269,6 +269,186 @@
       "descripcion": "El amor de Tessa y Hardin nunca ha sido fácil. Mientras él permanece en Londres después de la boda de su madre y se hunde cada vez más en su propia oscuridad, ella regresa a Seattle. Tessa es la única capaz de entenderle y calmarle... él la necesita, pero ella ya no es la chica buena y dulce que era cuando llegó a la universidad.",
       "img": "https://www.aventurasnerd.com/wp-content/uploads/2022/07/unnamed-2-24.jpg",
       "id": 30
+    },
+    {
+      "titulo": "Encanto" ,
+      "anio": "2021" ,
+      "duracion": "1h 39m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Una joven colombiana puede ser la última esperanza para su familia, cuando descubre que la magia que rodea a Encanto, un lugar encantado que bendice a los niños con dones únicos, se encuentra en serio peligro.",
+      "img": "https://pics.filmaffinity.com/encanto-246546841-large.jpg",
+      "id": 31
+    },
+    {
+      "titulo": "Moana" ,
+      "anio": "2016" ,
+      "duracion": "1h 42m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Vaiana, una adolescente de las islas del sur del Pacífico, atraviesa el océano y explora el mundo para demostrar que es tan valiente como el resto de su familia. En su periplo se encontrará con Maui, quien en el pasado fue un semidios poderoso.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0I_NLZX7ywKTPOE6dP5IORzdjWJvBLz7ZLeyVR0HHuXieSF6l",
+      "id": 32
+    },
+    {
+      "titulo": "Zootopia" ,
+      "anio": "2016" ,
+      "duracion": "1h 48m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "La metrópoli Zootopía es una ciudad de mamíferos, donde muchos animales viven y se desarrollan. Allí, la optimista agente Judy Hopps se convierte en la primera conejita de un cuerpo policial compuesto por animales duros y enormes. Judy está decidida a demostrar su valentía y se mete en un caso con Nick Wilde, un zorro parlanchín y estafador.",
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbQG_7hN9PBvVE5rFHZ5wGR_DENS7jDkXMsQFtTvOIcpl0XFoN",
+      "id": 33
+    },
+    {
+      "titulo": "Coco" ,
+      "anio": "2017" ,
+      "duracion": "1h 16m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures.",
+      "img": "https://pics.filmaffinity.com/coco-155051069-large.jpg",
+      "id": 34
+    },
+    {
+      "titulo": "Lightyear" ,
+      "anio": "2022" ,
+      "duracion": "1h 40m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Buzz Lightyear se embarca en una aventura intergaláctica con un grupo de reclutas ambiciosos y su compañero robot. Los amigos tendrán que aprender a trabajar juntos para escapar del malvado Zurg y su ejército de robots.",
+      "img": "https://pics.filmaffinity.com/lightyear-529062623-large.jpg",
+      "id": 35
+    },
+    {
+      "titulo": "Enredados" ,
+      "anio": "2010" ,
+      "duracion": "1h 40m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Rapunzel, quien fue confinada a una torre cuando era pequeña, desea salir al mundo exterior. Cuando el ladrón más buscado del reino, Flynn Rider, se esconde en la torre, la adolescente decide hacer un trato con él.",
+      "img": "https://pics.filmaffinity.com/tangled-708117517-large.jpg",
+      "id": 36
+    },
+    {
+      "titulo": "Frozen: Una aventura congelada" ,
+      "anio": "2013" ,
+      "duracion": "1h 42m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Una joven princesa valiente se establece con un montañista para encontrar a su hermana, cuyos poderes gélidos han atrapado a su reino en el invierno eterno. Con letras en pantalla y nieve saltando para seguir las canciones.",
+      "img": "https://pics.filmaffinity.com/frozen-680009505-large.jpg",
+      "id": 37
+    },
+    {
+      "titulo": "Red" ,
+      "anio": "2022" ,
+      "duracion": "1h 40m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Red es una película estadounidense de comedia, de aventuras y que trata a la pubertad de una manera metafórica, animada por computadora, dirigida por Domee Shi, producida por Pixar Animation Studios y lanzada por Walt Disney Pictures",
+      "img": "https://pics.filmaffinity.com/turning_red-326602450-large.jpg",
+      "id": 38
+    },
+    {
+      "titulo": "Encantada" ,
+      "anio": "2007" ,
+      "duracion": "1h 43m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Giselle, la princesa de un cuento de hadas, es desterrada por una reina malvada y termina en el Manhattan moderno, en donde la música, la magia y los finales felices no son muy frecuentes",
+      "img": "https://pics.filmaffinity.com/enchanted-988247581-large.jpg",
+      "id": 39
+    },
+    {
+      "titulo": "Sing: ¡Ven y canta!" ,
+      "anio": "2016" ,
+      "duracion": "1h 48m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Un cerdo, un ratón, un puerco espín, un gorila, un elefante y otros animales se reúnen en un teatro koala para una competencia de canto.",
+      "img": "https://pics.filmaffinity.com/sing-887137050-large.jpg",
+      "id": 40
+    },
+    {
+      "titulo": "A dos metros de ti" ,
+      "anio": "2019" ,
+      "duracion": "1h 57m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Stella, de 17 años, está ingresada en un hospital porque padece fibrosis quística. Su monótona existencia cambia cuando llega Will, un adolescente con la misma dolencia. Sin embargo, las normas del hospital prohíben el contacto entre ellos.",
+      "img": "https://pics.filmaffinity.com/five_feet_apart-293759292-large.jpg",
+      "id": 41
+    },
+    {
+      "titulo": "Bajo la misma estrella" ,
+      "anio": "2014" ,
+      "duracion": "2h 05m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Dos adolescentes pacientes de cáncer inician un viaje para reafirmar sus vidas y visitar a un escritor solitario en Ámsterdam..",
+      "img": "https://pics.filmaffinity.com/the_fault_in_our_stars-457483777-large.jpg",
+      "id": 42
+    },
+    {
+      "titulo": "Yo antes de tí" ,
+      "anio": "2016" ,
+      "duracion": "1h 50m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "La vida de Louisa Clark, una chica alegre y alocada, que va empalmando un trabajo con otro para ayudar a su familia a subsistir, cambia por completo cuando comienza a trabajar como cuidadora de un joven millonario, quien quedó paralítico tras un accidente. Poco a poco, se va estableciendo entre ellos una conexión cada vez más íntima.",
+      "img": "https://pics.filmaffinity.com/me_before_you-594538815-large.jpg",
+      "id": 43
+    },
+    {
+      "titulo": "365 dias" ,
+      "anio": "2020" ,
+      "duracion": "1h 56m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Para evitar que su relación se desmorone, una mujer viaja a Sicilia, donde conoce a un hombre peligroso llamado Massimo.",
+      "img": "https://pics.filmaffinity.com/365_dni-992282930-large.jpg",
+      "id": 44
+    },
+    {
+      "titulo": "Cincuenta sombras de Grey" ,
+      "anio": "2015" ,
+      "duracion": "2h 05m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Una estudiante de literatura inicia un romance atrevido con un hombre de negocios controlador cuyos gustos sexuales se encuentran en la frontera del dolor y el placer.",
+      "img": "https://pics.filmaffinity.com/fifty_shades_of_grey-307638661-large.jpg",
+      "id": 45
+    },
+    {
+      "titulo": "La bella y la bestia" ,
+      "anio": "2017" ,
+      "duracion": "2h 03m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "La bella y la bestia es una película estadounidense​ de fantasía, musical y animación CGI con imagen real de 2017, dirigida por Bill Condon y escrita por Evan Spiliotopoulos y Stephen Chbosky",
+      "img": "https://pics.filmaffinity.com/beauty_and_the_beast-399141417-large.jpg",
+      "id": 46
+    },
+    {
+      "titulo": "La La Land: ciudad de sueños" ,
+      "anio": "2016" ,
+      "duracion": "2h 06m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Sebastian, un pianista de jazz, y Mia, una aspirante a actriz, se enamoran locamente; pero la ambición desmedida que tienen por triunfar en sus respectivas carreras, en una ciudad como Los Ángeles, repleta de competencia y carente de piedad, pone en peligro su amor.",
+      "img": "https://pics.filmaffinity.com/la_la_land-262021831-large.jpg",
+      "id": 47
+    },
+    {
+      "titulo": "A través de mi ventana" ,
+      "anio": "2022" ,
+      "duracion": "1h 56m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "La atracción de Raquel por su vecino se convierte en algo más cuando él empieza a enamorarse de ella, pese a las objeciones de su familia.",
+      "img": "https://pics.filmaffinity.com/a_traves_de_mi_ventana-369671861-large.jpg",
+      "id": 48
+    },
+    {
+      "titulo": "Tres metros sobre el cielo" ,
+      "anio": "2010" ,
+      "duracion": "1h 58m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Es la historia de dos jóvenes: uno problemático con tendencias violentas que inicia un romance con una niña rica..",
+      "img": "https://pics.filmaffinity.com/3_metros_sobre_el_cielo-961927049-large.jpg",
+      "id": 49
+    },
+    {
+      "titulo": "La ciudad perdida" ,
+      "anio": "2016" ,
+      "duracion": "1h 52m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Un modelo de portada viaja a una jungla exótica para rescatar a una escritora de aventuras de un excéntrico multimillonario.",
+      "img": "https://pics.filmaffinity.com/the_lost_city-223738504-large.jpg",
+      "id": 50
     }
   ],
   "agregadas":[
@@ -325,6 +505,42 @@
       "descripcion": "Un policía de Nueva York y su esposa se van de vacaciones a Europa para revitalizar el amor en su matrimonio. Un encuentro casual los lleva a ser acusados del asesinato de un billonario anciano.",
       "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRh26Vxxfz1jO2AF6lLfgzC2mOUJOJ2PFQtBaBEcGJd1eD9_POz",
       "id": 6
+    },
+    {
+      "titulo": "Monsters, Inc" ,
+      "anio": "2001" ,
+      "duracion": "1h 27m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Monsters, Incorporated es la fábrica de sustos más grande en el mundo de los monstruos y James P. Sullivan es uno de sus mejores asustadores. Sullivan es un monstruo grande e intimidante de piel azul con grandes manchas color púrpura y cuernos. Su asistente, mejor amigo y compañero de cuarto es Mike Wazowski, un pequeño y alegre monstruo verde con un solo ojo.",
+      "img": "https://pics.filmaffinity.com/monsters_inc-336355219-large.jpg",
+      "id": 7
+    },
+    {
+      "titulo": "Toy Story" ,
+      "anio": "1995" ,
+      "duracion": "1h 14m" ,
+      "categoria": "Infantiles" ,
+      "descripcion": "Woody, el juguete favorito de Andy, se siente amenazado por la inesperada llegada de Buzz Lightyear, el guardián del espacio..",
+      "img": "https://pics.filmaffinity.com/toy_story-626273371-large.jpg",
+      "id": 8
+    },
+    {
+      "titulo": "Cuestión de tiempo" ,
+      "anio": "2013" ,
+      "duracion": "2h 03m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "Cuando Tim Lake cumple 21 años, su padre le dice un secreto: los hombres de su familia pueden viajar por el tiempo. A pesar de que él no puede cambiar la historia, Tim decide mejorar su vida buscando una novia. Él conoce a Mary, se enamora y finalmente se gana su corazón con los viajes en el tiempo y un poco de astucia",
+      "img": "https://pics.filmaffinity.com/about_time-988331421-large.jpg",
+      "id": 9
+    },
+    {
+      "titulo": "Diario de una pasión" ,
+      "anio": "2004" ,
+      "duracion": "2h 01m" ,
+      "categoria": "Romanticas" ,
+      "descripcion": "En un hogar de retiro un hombre le lee a una mujer, que sufre de Alzheimer, la historia de dos jóvenes de distintas clases sociales que se enamoraron durante la convulsionada década del 40, y de cómo fueron separados por terceros, y por la guerra.",
+      "img": "https://pics.filmaffinity.com/the_notebook-565006977-large.jpg",
+      "id": 10
     }   
  ],
  "users":[
