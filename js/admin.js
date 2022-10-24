@@ -43,7 +43,7 @@ const tablaPelis = async () => {
        <i class="bi bi-trash2-fill fs-5 rounded text-white"></i>
       </button>
       <button type="button" class="btn btn-primary" onclick="editarPeli(${pelicula.id})" data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi bi-pencil-fill rounded text-white fs-5"></i></button>
-      <button type="button" class="rounded" onclick="asignarDestacada('${pelicula.img}', '${pelicula.categoria}')"><i class="bi bi-star"></i></button>
+      <button type="button" class="rounded" onclick="asignarDestacada('${pelicula.img}', '${pelicula.categoria}', '${pelicula.descripcion}')"><i class="bi bi-star"></i></button>
     </tr>
     `
   );
@@ -85,12 +85,13 @@ const editarPeli = async (id) => {
   });
 };
 
-const asignarDestacada = (img, categoria) => {
+const asignarDestacada = (img, categoria, descripcion) => {
   console.log("Ejecutando DESTACADA");
   // console.log(img);
   // console.log(categoria);
   window.localStorage.setItem("Destacada", img);
   window.localStorage.setItem("Categoria", categoria);
+  window.localStorage.setItem("Descripcion", descripcion)
   alert("La imagen DESTACADA fue asignada con EXITO!");
 };
 
