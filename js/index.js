@@ -4,7 +4,7 @@ const getUser = async () => {
   return user;
 };
 
-/*
+
 let botonForm = document.getElementById("button_Form");
 botonForm.addEventListener("click", async () => {
   let email = document.getElementById("emailForm");
@@ -20,7 +20,7 @@ botonForm.addEventListener("click", async () => {
     incorrecto.classList.add("d-block");
   }
 });
-*/
+
 
 const getDestacada = () => {
   console.log("ejecutando GET IMAGEN");

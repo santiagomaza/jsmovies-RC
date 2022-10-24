@@ -89,6 +89,105 @@
       "descripcion": "Tras vengar el asesinato de su familia, un ex soldado sale de la cárcel y es reclutado por una oscura agencia gubernamental.",
       "img": "https://m.media-amazon.com/images/M/MV5BODNjNzZhYjItMzk1Zi00Y2I3LTgxM2YtMjliM2Y5N2ZhNDY3XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_FMjpg_UX1000_.jpg",
       "id": 10
+    },
+    {
+      "titulo": "Superbad",
+      "anio": "2007",
+      "duracion": "1h 59m",
+      "categoria": "Comedia",
+      "descripcion": "Seth (Jonah Hill) y Evan (Michael Cera), dos estudiantes co-dependientes de preparatoria, tienen grandes esperanzas en su fiesta de graduación: los jóvenes se sienten retados por la sociedad y planean divertirse en grande y conseguir chicas hermosas para finalmente poder integrarse con sus compañeros.",
+      "img": "https://www.hbomax.com/ar/es/feature/urn:hbo:feature:GYsgJzA68jUqupQEAAALE?countryRedirect=1",
+      "id": 11
+    },
+    {
+      "titulo": "¿Qué pasó ayer?",
+      "anio": "2009",
+      "duracion": "1h 30m",
+      "categoria": "Comedia",
+      "descripcion": "Dos días antes de su boda, Doug y tres amigos viajan a Las Vegas para una fiesta inolvidable y salvaje. De hecho, cuando los tres acompañantes despiertan la mañana siguiente, no recuerdan nada ni encuentran a Doug..",
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTANK4Wz81dc-M3uegv56yYDxbBwtzfyl9kiuIqpzX01b1LZjGZ",
+      "id": 12
+    },
+    {
+      "titulo": "El lobo de Wall Street",
+      "anio": "2013",
+      "duracion": "2h 25m",
+      "categoria": "Comedia",
+      "descripcion": "Jordan Belfort, corredor de bolsa de Nueva York, quien fundó la compañía Stratton Oakmont cuando aún era un veinteañero, desarrolla hábitos de exceso y corrupción.",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdr0LmNzcemZet29M9KHI353av2D6E8m_ECbhGB124QauUM-jK",
+      "id": 13
+    },
+    {
+      "titulo": "No miren arriba",
+      "anio": "2021",
+      "duracion": "2h 25m",
+      "categoria": "Comedia",
+      "descripcion": "Dos astrónomos mediocres descubren que, en pocos meses, un meteorito destruirá el planeta Tierra. A partir de ese momento, intentan advertir a la humanidad del peligro que se avecina a través de los medios de comunicación.",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1k8lyh-hGMTv2uV2pn7uwFzK4VEtvdXSSBgX9mHkg05wHYc7z",
+      "id": 14
+    },
+    {
+      "titulo": "Perfectos desconocidos",
+      "anio": "2017",
+      "duracion": "1h 37m",
+      "categoria": "Comedia",
+      "descripcion": "Cuatro parejas de amigos que se conocen de toda la vida cenan juntos una noche. Uno de ellos propone un particular juego: todos deberán leer en voz alta los mensajes y atender las llamadas que reciban en sus móviles durante la cena.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqYx_lOtaRovrSmj5W5yt3hfyQVmqdkL42lKGjxLXJImpgsCW",
+      "id": 15
+    },
+    {
+      "titulo": "Ricos y malcriados",
+      "anio": "2022",
+      "duracion": "1h 35m",
+      "categoria": "Comedia",
+      "descripcion": "Los tres hijos de Francis Bartek no se dedican a nada, excepto a gastar el dinero que el padre ha ganado trabajando duro. Cansado del comportamiento de sus hijos, Francis decide hacerles creer que están totalmente arruinados.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuthF8a4DAie4NpNPHeeHe1IVCcBuGKLV90GvWHHeWZEHJ2M67",
+      "id": 16
+    },
+    {
+      "titulo": "Shrek",
+      "anio": "2001",
+      "duracion": "1h 23m",
+      "categoria": "Comedia",
+      "descripcion": "Un ogro llamado Shrek vive en su pantano, pero su preciada soledad se ve súbitamente interrumpida por la invasión de los ruidosos personajes de los cuentos de hadas. Todos fueron expulsados de sus reinos por el malvado Lord Farquaad. Decidido a salvar su hogar, Shrek hace un trato con Farquaad y se prepara para rescatar a la princesa Fiona, quien será la esposa de Farquaad.",
+      "img": "https://pics.filmaffinity.com/shrek-903764423-large.jpg",
+      "id": 17
+    },
+    {
+      "titulo": "Relatos Salvajes",
+      "anio": "2014",
+      "duracion": "1h 59m",
+      "categoria": "Comedia",
+      "descripcion": "Seis relatos que alternan la intriga, la comedia y la violencia. Sus personajes se verán empujados hacia el abismo y hacia el innegable placer de perder el control al cruzar la delgada línea que separa la civilización de la barbarie.",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfQLe-7nnWM87HAykKl-lySTO4pVKyMDBVH2HXMjuA82EmlwnT",
+      "id": 18
+    },
+    {
+      "titulo": "American Pie",
+      "anio": "1999",
+      "duracion": "1h 32m",
+      "categoria": "Comedia",
+      "descripcion": "Cuatro adolescentes se comprometen a perder su virginidad y hacen un pacto. Cada uno trata de ser el primero, pero se encuentran con obstáculos para lograr su objetivo.",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTHZQn7GMGyrnOCl0Z2rGZtdS-hcgwdwYGZcd7lVjBH5pZ8DCgm",
+      "id": 19
+    },
+    {
+      "titulo": "Mi pobre angelito",
+      "anio": "1990",
+      "duracion": "1h 43m",
+      "categoria": "Comedia",
+      "descripcion": "Un encantador niño de 8 años desafía a un torpe par de ladrones cuando, accidentalmente, sus padres lo olvidan en casa.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjPVntrnc_4CkRHoymQlfr6oqgu8qCjcYbu3i2hplBdDyHyk8E",
+      "id": 20
+    },
+    {
+      "titulo": "Virgen a los 40",
+      "anio": "2005",
+      "duracion": "1h 52m",
+      "categoria": "Comedia",
+      "descripcion": "Tres compañeros de trabajo emprenden una misión de ayuda para que un nuevo amigo pierda la virginidad..",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFsMKYiNndNu3fYTD0ASFfPJ7u9TK-mgaO4cAoWsQeXlJ-VY0",
+      "id": 21
     }
   ],
   "agregadas":[
@@ -109,7 +208,30 @@
       "descripcion": "Hace quince años, Andrei, bajo la tutela de su padre, el coronel Rodin, fue entrenado en una escuela secreta, donde los agentes eran preparados siendo adolescentes. Cuando el proyecto piloto fue cerrado, Andrei, se quedó en Europa y trató de olvidar su pasado.",
       "img": "https://pics.filmaffinity.com/geroy-637410697-large.jpg",
       "id": 2
-    }
-    
-  ]
+    },
+    {
+      "titulo": "La máscara",
+      "anio": "1994",
+      "duracion": "1h 41m",
+      "categoria": "Comedia",
+      "descripcion": "Una máscara antigua transforma a un monótono empleado bancario en un Romeo sonriente con poderes sobrehumanos.",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRlCwhV2kN8fJlPEM2YltCp4R4FS7YwQ4kucbFCShulwrvJlnQX",
+      "id": 3
+    },
+    {
+      "titulo": "Misterio a bordo",
+      "anio": "2019",
+      "duracion": "1h 37m",
+      "categoria": "Comedia",
+      "descripcion": "Un policía de Nueva York y su esposa se van de vacaciones a Europa para revitalizar el amor en su matrimonio. Un encuentro casual los lleva a ser acusados del asesinato de un billonario anciano.",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRh26Vxxfz1jO2AF6lLfgzC2mOUJOJ2PFQtBaBEcGJd1eD9_POz",
+      "id": 4
+    }   
+ ],
+ "users":[
+  {
+    "email": "admin@admin.com",
+    "pw": "admin"
+  }
+ ]
 }
