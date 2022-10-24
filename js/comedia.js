@@ -35,13 +35,13 @@ const mapeoPeliculas = async () => {
 
   const peliculas = peli.map(
     (pelicula) => `
-    <div class="card" style="width: 15rem;">
-      <img src="${pelicula.img}" class="card-img-top col-lg-3" alt="...">
+    <div class="card mt-3" style="width: 15rem;">
+      <img src="${pelicula.img}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">${pelicula.titulo}</h5>
         <p class="card-text">Año: ${pelicula.anio}</p>
         <p class="card-text">Duracion: ${pelicula.duracion}</p>
-        <p class="card-text">${pelicula.descripcion}</p>
+        <p class="card-text-desc">${pelicula.descripcion}</p>
       </div>
     </div>
     `

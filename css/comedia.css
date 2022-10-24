@@ -12,3 +12,10 @@
 .bg-color{
  background-image: radial-gradient(circle at center, rgb(20, 2, 20), rgb(206, 35, 157))
 }
+
+.card-img-top{
+  width: 14rem;
+  height: 18rem;
+  position: relative;
+  margin-right: 45px;
+}
