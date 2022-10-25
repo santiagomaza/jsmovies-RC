@@ -94,15 +94,11 @@ const editarPeli = async (id) => {
   });
 };
 
-const asignarDestacada = (img_acc, categoria, descripcion) => {
+const asignarDestacada = (img, categoria, descripcion) => {
   console.log("Ejecutando DESTACADA");
-  window.localStorage.setItem("Destacada_acc", img_acc);
-  // window.localStorage.setItem("Destacada_inf", img_inf);
-  // window.localStorage.setItem("Destacada_rom", img_rom);
-  // window.localStorage.setItem("Destacada_est", img_est);
-  // window.localStorage.setItem("Destacada_com", img_com);
+  window.localStorage.setItem("Destacada", img);
   window.localStorage.setItem("Categoria", categoria);
-  window.localStorage.setItem("Descripcion", descripcion)
+  window.localStorage.setItem("Descripcion", descripcion);
   alert("La imagen DESTACADA fue asignada con EXITO!");
 };
 

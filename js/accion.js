@@ -1,6 +1,6 @@
 const getDestacada = () => {
   console.log("ejecutando GET IMAGEN");
-  let imagen = window.localStorage.getItem("Destacada_acc");
+  let imagen = window.localStorage.getItem("Destacada");
   console.log(imagen)
   let categoria = window.localStorage.getItem("Categoria");
   let descripcion = window.localStorage.getItem("Descripcion")
