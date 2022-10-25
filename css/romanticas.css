@@ -1,0 +1,46 @@
+.img_destacada img{
+  width: 50vw;
+  height: 50vh;
+}
+
+.descripcion_box{
+  width: 50vw;
+  background-image: linear-gradient(pink, rgb(154, 87, 137));
+  box-shadow: 0px 0px 15px 0px black;
+}
+
+.bg-color{
+ background-image: radial-gradient(circle at center, rgb(20, 2, 20), rgb(206, 35, 157))
+}
+
+.card-img-top{
+  width: 14rem;
+  height: 18rem;
+  position: relative;
+  margin-right: 45px;
+}
+
+.fa-brands {
+  color: #ffff;
+}
+
+.fa-solid {
+  color: #ffff;
+}
+
+i:hover {
+  transform: scale(1.1);
+}
+
+a li:hover {
+  color: #ffff;
+  text-decoration: underline;
+}
+
+.imgfooter {
+  height: 80px;
+}
+
+.imgfooter:hover {
+  transform: scale(1.1);
+}
