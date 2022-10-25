@@ -13,9 +13,6 @@ const getDestacada = () => {
     descripciondest.innerHTML = `
     <p>${descripcion}</p>`
   } else {
-    contenedor.innerHTML = `
-       <img src="https://i.pinimg.com/originals/9c/48/88/9c48887c59a76906300d59e4cfbf8558.jpg">
-    `
   }
 };
 
