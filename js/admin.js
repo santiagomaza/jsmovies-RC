@@ -21,7 +21,7 @@ const agregarPeli = () => {
 };
 
 const obtenerPelis = async () => {
-  const results = await fetch("http://localhost:3000/agregadas");
+  const results = await fetch("http://localhost:3000/movies");
   const pelis = await results.json();
   return pelis;
 };
