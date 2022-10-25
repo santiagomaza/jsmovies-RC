@@ -14,10 +14,10 @@ const getDestacada = () => {
     <p>${descripcion}</p>`
   } else {
     contenedor.innerHTML = `
-    <img src="https://pics.filmaffinity.com/superbad-543132496-large.jpg"> 
+    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/NKRTL7HORJFTVBRJ4MZ2SB5UNI.png"> 
     `
     descripciondest.innerHTML = `
-    <p>Seth (Jonah Hill) y Evan (Michael Cera), dos estudiantes co-dependientes de preparatoria, tienen grandes esperanzas en su fiesta de graduación: los jóvenes se sienten retados por la sociedad y planean divertirse en grande y conseguir chicas hermosas para finalmente poder integrarse con sus compañeros.</p>
+    <p>Casi 5.000 años después de haber sido dotado de los poderes omnipotentes de los antiguos dioses -y encarcelado con la misma rapidez-, Black Adam es liberado de su tumba terrenal, listo para desatar su forma única de justicia en el mundo moderno</p>
     `
   }
 };
