@@ -2,6 +2,8 @@ const agregarPeli = () => {
   const categoria = document.getElementById("categoria").value;
   const titulo = document.getElementById("titulo").value;
   const descripcion = document.getElementById("descripcion").value;
+  const duracion = document.getElementById("duracion").value
+  const anio = document.getElementById("año").value
 
   if (titulo == "" || categoria == "" || descripcion == "") {
     return false;
@@ -11,8 +13,11 @@ const agregarPeli = () => {
     method: "POST",
     body: JSON.stringify({
       titulo,
+      anio,
+      duracion,
       categoria,
       descripcion,
+      img
     }),
     headers: {
       "Content-type": "application/json; charset=UTF-8",

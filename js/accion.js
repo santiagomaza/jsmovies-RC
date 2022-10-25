@@ -32,7 +32,7 @@ const mapeoPeliculas = async () => {
   const peliculas = peli.filter(a => a.categoria == 'Accion')
 
   const peliculas2 = peliculas.map(a => `
-  <div class="card mt-3" style="width: 15rem;">
+  <div class="card mb-3" style="width: 15rem;">
       <img src="${a.img}" class="card-img-top col-lg-3" alt="...">
       <div class="card-body">
         <h5 class="card-title">${a.titulo}</h5>
