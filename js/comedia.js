@@ -1,6 +1,6 @@
 const getDestacada = () => {
   console.log("ejecutando GET IMAGEN");
-  let imagen = window.localStorage.getItem("Destacada");
+  let imagen = window.localStorage.getItem("Destacada_com");
   let categoria = window.localStorage.getItem("Categoria");
   let descripcion = window.localStorage.getItem("Descripcion")
   let contenedor = document.getElementById("container-img");
@@ -33,7 +33,7 @@ const mapeoPeliculas = async () => {
   const peliculas = peli.filter(a => a.categoria == 'Comedia')
 
   const peliculas2 = peliculas.map(a => `
-  <div class="card mb-3" style="width: 15rem;">
+  <div class="card mb-3">
       <img src="${a.img}" class="card-img-top col-lg-3" alt="...">
       <div class="card-body">
         <h5 class="card-title">${a.titulo}</h5>
@@ -49,30 +49,3 @@ const mapeoPeliculas = async () => {
 }
 
 mapeoPeliculas()
-
-/*
-const mapeoPeliculas = async () => {
-  const peli = await obtenerPelis();
-  const div = document.getElementById("container_peliculas");
-
-  console.log("Agregando pelicula");
-
-  const peliculas = peli.map(
-    (pelicula) => `
-    <div class="card mt-3" style="width: 15rem;">
-      <img src="${pelicula.img}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">${pelicula.titulo}</h5>
-        <p class="card-text">Año: ${pelicula.anio}</p>
-        <p class="card-text">Duracion: ${pelicula.duracion}</p>
-        <p class="card-text-desc">${pelicula.descripcion}</p>
-      </div>
-    </div>
-    `
-  );
-
-  div.innerHTML = peliculas.join("");
-}
-
-mapeoPeliculas()
-*/
