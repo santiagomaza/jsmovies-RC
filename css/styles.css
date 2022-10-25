@@ -163,3 +163,10 @@ a li:hover {
 .bg-color {
   background-color: #4e183c;
 }
+
+/* ··· QUIENES SOMOS ········ */
+@media all and (min-width:992px){
+  .quienes_somos{
+    width: 50%;
+  }
+}

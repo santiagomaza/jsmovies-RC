@@ -8,12 +8,17 @@ const getDestacada = () => {
 
   if (categoria == "Comedia") {
     contenedor.innerHTML = `
-    <img src="${imagen}">
+    <img src=${imagen}>
     `;
     descripciondest.innerHTML = `
     <p>${descripcion}</p>`
   } else {
-  
+    contenedor.innerHTML = `
+    <img src="https://pics.filmaffinity.com/superbad-543132496-large.jpg"> 
+    `
+    descripciondest.innerHTML = `
+    <p>Seth (Jonah Hill) y Evan (Michael Cera), dos estudiantes co-dependientes de preparatoria, tienen grandes esperanzas en su fiesta de graduación: los jóvenes se sienten retados por la sociedad y planean divertirse en grande y conseguir chicas hermosas para finalmente poder integrarse con sus compañeros.</p>
+    `
   }
 };
 

@@ -8,11 +8,17 @@ const getDestacada = () => {
 
   if (categoria == "Romanticas") {
     contenedor.innerHTML = `
-    <img src="${imagen}">
+    <img src=${imagen}>
     `;
     descripciondest.innerHTML = `
     <p>${descripcion}</p>`
   } else {
+    contenedor.innerHTML = `
+    <img src="https://pics.filmaffinity.com/five_feet_apart-293759292-large.jpg"> 
+    `
+    descripciondest.innerHTML = `
+    <p>Stella, de 17 años, está ingresada en un hospital porque padece fibrosis quística. Su monótona existencia cambia cuando llega Will, un adolescente con la misma dolencia. Sin embargo, las normas del hospital prohíben el contacto entre ellos.</p>
+    `
   }
 };
 

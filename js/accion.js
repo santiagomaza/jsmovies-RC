@@ -14,6 +14,12 @@ const getDestacada = () => {
     descripciondest.innerHTML = `
     <p>${descripcion}</p>`
   } else {
+    contenedor.innerHTML = `
+    <img src="https://www.themoviedb.org/t/p/original/qGhn72JeMKpYKlyJKsOvCqyp4DF.jpg"> 
+    `
+    descripciondest.innerHTML = `
+    <p>Un agente encubierto del FBI se convierte en un asesino vigilante y se propone desatar su ira contra el hombre de negocios corrupto que masacró a toda su familia en una reunión.</p>
+    `
   }
 };
 

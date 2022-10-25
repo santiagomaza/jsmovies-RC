@@ -6,13 +6,19 @@ const getDestacada = () => {
   let contenedor = document.getElementById("container-img");
   let descripciondest= document.getElementById("descripcion-dest")
 
-  if (categoria == "Infantiles") {
+   if (categoria == "Infantiles") {
     contenedor.innerHTML = `
-    <img src="${imagen}">
+    <img src=${imagen}>
     `;
     descripciondest.innerHTML = `
     <p>${descripcion}</p>`
   } else {
+    contenedor.innerHTML = `
+    <img src="https://pics.filmaffinity.com/encanto-246546841-large.jpg"> 
+    `
+    descripciondest.innerHTML = `
+    <p>Una joven colombiana puede ser la última esperanza para su familia, cuando descubre que la magia que rodea a Encanto, un lugar encantado que bendice a los niños con dones únicos, se encuentra en serio peligro.</p>
+    `
   }
 };
 
