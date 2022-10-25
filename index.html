@@ -12,7 +12,6 @@
   <title>TheFilmZone</title>
 </head>
 <body>
-  <!-- #NAVEGACION# -->
   <nav class="navbar navbar-dark navbar-expand-lg bg-color sticky-top">
     <div class="container-fluid">
       <img src="./img/FilmZone (4).png" alt="logo" width="50" height="50">
@@ -41,9 +40,8 @@
         </ul>
       </div>
     </div>
-  </nav>
+   </nav>
   <main>
-    <!-- #CAROUSEL# -->
       <div id="carouselExampleCaptions" class="carousel slide capa" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -97,63 +95,12 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- #GENEROS# -->
-      <!-- <section class="container mt-3">  
-        <h2 id="generos" class="text-decoration-underline mb-3">Generos</h2>           
-        <section class="row mb-3 gap-2">
-          <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
-            <img src="https://es.web.img2.acsta.net/c_310_420/pictures/22/08/29/15/54/5179903.jpg"  class="card-img-top pt-3" alt="imagen">
-            <div class="card-body">
-              <h5 class="card-title">ESTRENOS</h5>
-              <p class="card-text">Las últimas películas taquilleras las encontrarás aquí! Revisa nuestra sección y verás que no sabrás con que film quedarte, pues mira todos! Que los disfrutes! </p>
-              <a href="Estrenos.html" class="btn btn-primary w-100">ESTRENOS</a>
-            </div>
-          </div>
-          <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
-            <img src="https://es.web.img3.acsta.net/c_310_420/pictures/22/09/19/18/12/2005107.jpg" class="card-img-top pt-3" alt="imagen">
-            <div class="card-body">
-            <h5 class="card-title">ACCION</h5>
-            <p class="card-text">Acción es lo que buscas? pues allí vamos! Los mejores títulos están aquí para que puedas elegir y ponerle acción a tu día, que digo, a tu vida! Míralos! Películas disponibles.</p>
-            <a href="Accion.html" class="btn btn-success w-100">ACCION</a>
-            </div>
-          </div>
-          <div class="card rounded-0 border-0 mx-auto col-12 col-md-4 col-lg-4" >
-            <img src="https://es.web.img3.acsta.net/c_310_420/pictures/22/08/12/08/39/5169809.jpg" class="card-img-top pt-3"
-              alt="imagen">
-            <div class="card-body">
-              <h5 class="card-title">ROMANTICAS</h5>
-              <p class="card-text">Amor, en todas sus versiones! Enamórate del amor! Si éste genero es lo tuyo, no te vas a
-                arrepentir. Mira lo que tenemos para tí, hecha un vistazo! Películas disponibles.</p>
-              <a href="Romanticas.html" class="btn btn-warning w-100">ROMANTICAS</a>
-            </div>
-          </div>
-        </section>
-        <section class="row gap-2">
-          <div class="card rounded-0 border-0 mx-auto col-12 col-md-6 col-lg-4">
-            <img src="https://es.web.img2.acsta.net/c_310_420/pictures/22/06/14/12/51/2834709.jpg" class="card-img-top pt-3"
-              alt="imagen">
-            <div class="card-body">
-              <h5 class="card-title">COMEDIA</h5>
-              <p class="card-text">Quieres reirte hasta no dar más? La mejor opción entonces para ti es una comedia para ver,
-                disfrutar y llorar de la risa! Diviértete con nuestra selección! Películas disponibles.</p>
-              <a href="Comedia.html" class="btn btn-danger w-100">COMEDIA</a>
-            </div>
-          </div>
-          <div class="card card rounded-0 border-0 mx-auto col-12 col-md-6 col-lg-4">
-            <img src="https://es.web.img2.acsta.net/c_310_420/pictures/22/09/07/12/24/2686804.jpg" class="card-img-top pt-3" alt="imagen">
-            <div class="card-body">
-              <h5 class="card-title">INFANTILES</h5>
-              <p class="card-text">Anime, Disney y mucho más..! Sumérgete en este mundo de fantasía y vive las aventuras de este género. Todas en un solo lugar, escoge la que quieras y comienza ya!</p>
-              <a href="Infantiles.html" class="btn btn-info w-100">INFANTILES</a>
-            </div>
-          </div>
-        </section>
-      </section> -->
-      <!-- ### GENEROS NUEVA #### -->
       <section class="generos">
-        <h2>Generos</h2>
-        <section class="container">
-          <seciton class="row">
+        <div class="container mt-3 d-flex justify-content-center">
+          <h2>Generos</h2>
+        </div>
+        <section class="container mt-2">
+          <section class="row">
             <a href="./html/Estrenos.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 portada_hover portada_estrenos d-flex justify-content-center align-items-center">
               <h3>ESTRENOS</h3>             
             </a>
@@ -169,11 +116,9 @@
               <a href="./html/Infantiles.html" class="d-block text-decoration-none text-white col-12 col-md-6 col-lg-4 mb-4 mx-md-auto portada_hover text-center portada_infantiles d-flex justify-content-center align-items-center">
                 <h3>INFANTILES</h3>
               </a>
-            </seciton>
+            </section>
         </section>
       </section>
-      
-      <!-- #MODAL DE LOGEO# --> 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -206,8 +151,10 @@
   </main>
   <section class="container my-5">
    <article class="w-50 mx-auto">
-     <h2 id="quienessomos" class="text-center text-decoration-underline fst-italic">Quienes somos</h1>
-      <p class="text-center">The Film Zone es una publicación para todos los amantes del cine y las series. Desde The Film Zone se cubre toda la actualidad informativa relativa al lanzamiento de estrenos, así como dar servicio a través de nuestra cartelera y nuestra base de datos de películas y series, la más completa en castellano que se puede encontrar en la red. Lanzada en 2019, The Film Zone es la web de cine y series más leída del mundo en castellano, siendo la líder absoluta de audiencia en Argentina. Trabajamos incansablemente para que la experiencia de usar nuestras aplicaciones sea la mejor posible y nos encanta cualquier comentario o sugerencia que pueda tener para que podamos mejorar aún más.</p>
+     <h2 id="quienessomos" class="text-center text-decoration-underline fst-italic mb-3">Quienes somos</h1>
+      <p class="text-center">The Film Zone es una publicación para todos los amantes del cine y las series. Desde The Film Zone se cubre toda la actualidad informativa relativa al lanzamiento de estrenos, así como dar servicio a través de nuestra cartelera y nuestra base de datos de películas y series, la más completa en castellano que se puede encontrar en la red.
+      </p>
+      <p class="text-center">Lanzada en 2019, The Film Zone es la web de cine y series más leída del mundo en castellano, siendo la líder absoluta de audiencia en Argentina. Trabajamos incansablemente para que la experiencia de usar nuestras aplicaciones sea la mejor posible y nos encanta cualquier comentario o sugerencia que pueda tener para que podamos mejorar aún más.</p>
     </article>
   </section>
   <footer class="container-fluid">

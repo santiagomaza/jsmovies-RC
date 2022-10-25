@@ -1,6 +1,7 @@
 const getDestacada = () => {
   console.log("ejecutando GET IMAGEN");
   let imagen = window.localStorage.getItem("Destacada");
+  console.log(imagen)
   let categoria = window.localStorage.getItem("Categoria");
   let descripcion = window.localStorage.getItem("Descripcion")
   let contenedor = document.getElementById("container-img");
@@ -8,7 +9,7 @@ const getDestacada = () => {
 
   if (categoria == "Accion") {
     contenedor.innerHTML = `
-    <img src="${imagen}">
+    <img src=${imagen}>
     `;
     descripciondest.innerHTML = `
     <p>${descripcion}</p>`
@@ -32,7 +33,7 @@ const mapeoPeliculas = async () => {
   const peliculas = peli.filter(a => a.categoria == 'Accion')
 
   const peliculas2 = peliculas.map(a => `
-  <div class="card mt-3" style="width: 15rem;">
+  <div class="card mb-3">
       <img src="${a.img}" class="card-img-top col-lg-3" alt="...">
       <div class="card-body">
         <h5 class="card-title">${a.titulo}</h5>

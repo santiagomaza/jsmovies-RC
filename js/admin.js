@@ -2,6 +2,9 @@ const agregarPeli = () => {
   const categoria = document.getElementById("categoria").value;
   const titulo = document.getElementById("titulo").value;
   const descripcion = document.getElementById("descripcion").value;
+  const duracion = document.getElementById("duracion").value
+  const anio = document.getElementById("año").value
+  const img = document.getElementById('subir_imagen').value
 
   if (titulo == "" || categoria == "" || descripcion == "") {
     return false;
@@ -11,8 +14,11 @@ const agregarPeli = () => {
     method: "POST",
     body: JSON.stringify({
       titulo,
+      anio,
+      duracion,
       categoria,
       descripcion,
+      img
     }),
     headers: {
       "Content-type": "application/json; charset=UTF-8",
@@ -75,8 +81,11 @@ const editarPeli = async (id) => {
       method: "PUT",
       body: JSON.stringify({
         titulo,
+        anio,
+        duracion,
         categoria,
         descripcion,
+        img
       }),
       headers: {
         "Content-type": "application/json; charset=UTF-8",
@@ -87,11 +96,9 @@ const editarPeli = async (id) => {
 
 const asignarDestacada = (img, categoria, descripcion) => {
   console.log("Ejecutando DESTACADA");
-  // console.log(img);
-  // console.log(categoria);
   window.localStorage.setItem("Destacada", img);
   window.localStorage.setItem("Categoria", categoria);
-  window.localStorage.setItem("Descripcion", descripcion)
+  window.localStorage.setItem("Descripcion", descripcion);
   alert("La imagen DESTACADA fue asignada con EXITO!");
 };
 
