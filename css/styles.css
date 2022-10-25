@@ -1,14 +1,14 @@
 body {
   background-color: #4e183c50;
 }
-/* ### CATEGORIAS HOME ###   */
+
 .card {
   width: 17rem;
   background-color: #4e183c;
   color: azure;
 }
 
-/* ####### NUEVAS CATEGORIAS ####### */
+
 .portada_accion,
 .portada_comedia,
 .portada_estrenos,
@@ -78,7 +78,7 @@ body {
   }
 }
 
-/* ##### CAROUSEL ####### */
+
 .carousel-inner {
   height: 50vh;
 }
@@ -104,7 +104,7 @@ body {
   text-shadow: 1px 1px black;
 }
 
-/* ### LOGIN ### */
+
 .p_validacion {
   display: none;
   text-align: center;
@@ -154,7 +154,6 @@ a li:hover {
   transform: scale(1.1);
 }
 
-/* Breakpoint dekstop 992px */
 
 .button-style:hover {
   background-color: #4e183c;
@@ -163,4 +162,10 @@ a li:hover {
 
 .bg-color {
   background-color: #4e183c;
+}
+
+@media all and (min-width:992px){
+  .quienes_somos{
+    width: 50%;
+  }
 }
